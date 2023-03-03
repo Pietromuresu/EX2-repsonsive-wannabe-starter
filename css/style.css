@@ -186,4 +186,18 @@ img {
  }
 
 
+ @media screen and (min-width: 481px) {
 
+    .container {
+        width: 90%;
+    }
+
+ }
+
+ @media screen and (max-width: 768px) {
+
+    .container {
+        width: 90%;
+    }
+
+ }

@@ -148,8 +148,12 @@ img {
 
 
  @media screen and (max-width: 480px) {
-    
+    .steps {
+        margin-bottom: 0;
+
+    }
     .steps .container {
+        
         width: 90%;
     }
 
@@ -166,13 +170,16 @@ img {
 
 
  @media screen and (max-width: 480px) {
-    
+    .why-us {
+        background-color: black;
+        margin-bottom: 0;
+    }
     .why-us .container {
         width: 90%;
     }
     
     .why-us .row{
-       flex-direction: column;
+       flex-direction: column;     
     }
 
     .why-us .row .col-left {
